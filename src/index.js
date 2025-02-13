@@ -3,7 +3,7 @@ import * as Path from 'node:path';
 
 export default async function getBoilerplate(url, filePath = Path.basename(url)) {
 	if (!url) {
-		throw 'Missing Argument(s)';
+		throw 'Missing argument(s)';
 	}
 
 	const rawUrlArray = url.split('/');
@@ -43,6 +43,15 @@ export default async function getBoilerplate(url, filePath = Path.basename(url))
 		await Fs.access(Path.dirname(filePath));
 	} catch {
 		await Fs.mkdir(Path.dirname(filePath), { recursive: true });
+	}
+
+	try {
+		await Fs.access(filePath);
+		throw 'File already exists';
+	} catch (error) {
+		if (error === 'File already exists') {
+			throw error;
+		}
 	}
 
 	await Fs.writeFile(filePath, text, { encoding: 'utf-8' });
