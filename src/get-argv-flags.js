@@ -1,3 +1,5 @@
+/* BOILERPLATE */
+
 export default function getArgVFlags(prefix = '--') {
 	const length = prefix.length;
 
