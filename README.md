@@ -27,6 +27,20 @@ After installation, you can use it like this:
 npx get-boilerplate <url> [<file>]
 ```
 
+## Boilerplates
+
+[get-argv-flags.js](./src/get-argv-flags.js)
+
+```
+npx github:JamesRobertHugginsNgo/get-boilerplate#3.0.0 https://github.com/JamesRobertHugginsNgo/get-boilerplate/blob/main/src/get-argv-flags.js get-argv-flags.js
+```
+
+[show-usage.js](./src/show-usage.js)
+
+```
+npx github:JamesRobertHugginsNgo/get-boilerplate#3.0.0 https://github.com/JamesRobertHugginsNgo/get-boilerplate/blob/main/src/show-usage.js show-usage.js
+```
+
 ## See Also
 
 - [Boilerplate System v1.1](https://github.com/JamesRobertHugginsNgo/JamesRobertHugginsNgo.github.io/blob/main/doc/boilerplate-system-1.1.md)
