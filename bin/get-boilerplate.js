@@ -23,4 +23,4 @@ if (h || help) {
 	process.exit(0);
 }
 
-await getBoilerplate(url, f || file);
+await getBoilerplate(url, file);
