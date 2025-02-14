@@ -15,7 +15,7 @@ npx github:JamesRobertHugginsNgo/get-boilerplate#3.0.0 <url> [<file>]
 ```
 npm install git+https://github.com/JamesRobertHugginsNgo/get-boilerplate.git#3.0.0 -g
 
-npx get-boilerplate <url> <file>
+npx get-boilerplate <url> [<file>]
 ```
 ## See Also
 
