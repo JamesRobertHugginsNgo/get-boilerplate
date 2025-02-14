@@ -18,7 +18,7 @@ npx github:JamesRobertHugginsNgo/get-boilerplate#3.0.0 <url> [<file>]
 ### Global Installation
 
 ```
-npm install git+https://github.com/JamesRobertHugginsNgo/get-boilerplate.git#3.0.0 -g
+npm install github:JamesRobertHugginsNgo/get-boilerplate#3.0.0 -g
 ```
 
 After installation, you can use it like this:
