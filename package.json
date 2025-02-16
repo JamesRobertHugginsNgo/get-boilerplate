@@ -20,7 +20,7 @@
     "./show-usage.js": "./src/show-usage.js"
   },
   "bin": {
-    "get-boilerplate": "./bin/get-boilerplate.js",
-    "cli": "./bin/cli.js"
+    "cli": "./bin/cli.js",
+    "get-boilerplate": "./bin/get-boilerplate.js"
   }
 }
