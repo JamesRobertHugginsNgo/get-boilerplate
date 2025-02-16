@@ -21,6 +21,6 @@
   },
   "bin": {
     "cli": "./bin/get-boilerplate.js",
-    "cli2": "./bin/get-boilerplate.js"
+    "cli2": "./bin/cli.js"
   }
 }
