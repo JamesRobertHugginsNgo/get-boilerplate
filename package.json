@@ -21,6 +21,6 @@
   },
   "bin": {
     "get-boilerplate": "./bin/get-boilerplate.js",
-    "test": "./bin/test.js"
+    "cli": "./bin/cli.js"
   }
 }
