@@ -1,6 +1,6 @@
 /* BOILERPLATE */
 
-export default function getArgVFlags(prefix = '--') {
+export default function getArgVFlags({ prefix = '--' } = {}) {
 	const length = prefix.length;
 
 	const [, , ...args] = process.argv;

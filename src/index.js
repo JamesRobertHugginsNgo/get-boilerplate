@@ -1,7 +1,4 @@
-import * as Fs from 'node:fs/promises';
-import * as Path from 'node:path';
-
-export default async function getBoilerplate(url, filePath = Path.basename(url)) {
+export default async function getBoilerplate(url) {
 	if (!url) {
 		throw 'Missing argument(s)';
 	}
@@ -39,20 +36,5 @@ export default async function getBoilerplate(url, filePath = Path.basename(url))
 		}
 	});
 
-	try {
-		await Fs.access(Path.dirname(filePath));
-	} catch {
-		await Fs.mkdir(Path.dirname(filePath), { recursive: true });
-	}
-
-	try {
-		await Fs.access(filePath);
-		throw 'File already exists';
-	} catch (error) {
-		if (error === 'File already exists') {
-			throw error;
-		}
-	}
-
-	await Fs.writeFile(filePath, text, { encoding: 'utf-8' });
+	process.stdout.write(text);
 }

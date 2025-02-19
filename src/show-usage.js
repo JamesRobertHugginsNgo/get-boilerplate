@@ -1,8 +1,6 @@
 /* BOILERPLATE */
 
-function fixLength(str, minLength = 16) {
-	return `${str}${str.length < minLength ? ' '.repeat(minLength - str.length) : ''}`;
-}
+import fixLength from './fix-length.js';
 
 export default function showUsage(description, usage, options) {
 	console.log();
