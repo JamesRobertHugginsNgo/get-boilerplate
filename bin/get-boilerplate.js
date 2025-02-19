@@ -1,13 +1,11 @@
 #! /usr/bin/env node
 
-import * as Path from 'node:path';
-
 import getArgVFlags from '../src/get-argv-flags.js';
 import getBoilerplate from '../src/index.js';
 import showUsage from '../src/show-usage.js';
 
-const [, , url, file] = process.argv;
-const { h, help, stdout } = getArgVFlags();
+const [, , url] = process.argv;
+const { h, help } = getArgVFlags();
 
 if (h || help) {
 	showUsage(
