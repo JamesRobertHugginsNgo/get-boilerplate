@@ -18,7 +18,7 @@ npx github:JamesRobertHugginsNgo/get-boilerplate#4.0.0 <url> > <filename>
 Global Installation
 
 ```
-npm install github:JamesRobertHugginsNgo/get-boilerplate#4.0.0 --global
+npm install github:JamesRobertHugginsNgo/get-boilerplate#4.0.0 --global --save-exact
 ```
 
 Local Installation
