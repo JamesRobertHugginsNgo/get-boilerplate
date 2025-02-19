@@ -38,19 +38,19 @@ npx get-boilerplate <url> <filename>
 [fix-length.js](./src/fix-length.js)
 
 ```
-npx github:JamesRobertHugginsNgo/get-boilerplate#5.0.0 https://github.com/JamesRobertHugginsNgo/get-boilerplate/blob/5.0.0/src/fix-length.js > fix-length.js
+npx github:JamesRobertHugginsNgo/get-boilerplate#5.0.0 https://github.com/JamesRobertHugginsNgo/get-boilerplate/blob/5.0.0/src/fix-length.js fix-length.js
 ```
 
 [get-argv-flags.js](./src/get-argv-flags.js)
 
 ```
-npx github:JamesRobertHugginsNgo/get-boilerplate#5.0.0 https://github.com/JamesRobertHugginsNgo/get-boilerplate/blob/5.0.0/src/get-argv-flags.js > get-argv-flags.js
+npx github:JamesRobertHugginsNgo/get-boilerplate#5.0.0 https://github.com/JamesRobertHugginsNgo/get-boilerplate/blob/5.0.0/src/get-argv-flags.js get-argv-flags.js
 ```
 
 [show-usage.js](./src/show-usage.js)
 
 ```
-npx github:JamesRobertHugginsNgo/get-boilerplate#5.0.0 https://github.com/JamesRobertHugginsNgo/get-boilerplate/blob/5.0.0/src/show-usage.js > show-usage.js
+npx github:JamesRobertHugginsNgo/get-boilerplate#5.0.0 https://github.com/JamesRobertHugginsNgo/get-boilerplate/blob/5.0.0/src/show-usage.js show-usage.js
 ```
 
 ## Samples
