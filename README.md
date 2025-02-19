@@ -2,7 +2,7 @@
 
 [![Static Badge](https://img.shields.io/badge/GitHub%20Repo-6e5494)](https://github.com/JamesRobertHugginsNgo/get-boilerplate)
 [![Static Badge](https://img.shields.io/badge/GitHub%20Page-4078c0)](https://jamesroberthugginsngo.github.io/get-boilerplate/)
-[![Static Badge](https://img.shields.io/badge/Latest_Tag-3.0.0-6cc644)](https://github.com/JamesRobertHugginsNgo/get-boilerplate/tree/3.0.0)
+[![Static Badge](https://img.shields.io/badge/Latest_Tag-4.0.0-6cc644)](https://github.com/JamesRobertHugginsNgo/get-boilerplate/tree/4.0.0)
 
 
 A Node CLI tool for downloading boilerplates.
@@ -10,7 +10,7 @@ A Node CLI tool for downloading boilerplates.
 ## Usage
 
 ```
-npx github:JamesRobertHugginsNgo/get-boilerplate#3.0.0 <url> > <filename>
+npx github:JamesRobertHugginsNgo/get-boilerplate#4.0.0 <url> > <filename>
 ```
 
 ## Installation
@@ -18,13 +18,13 @@ npx github:JamesRobertHugginsNgo/get-boilerplate#3.0.0 <url> > <filename>
 Global Installation
 
 ```
-npm install github:JamesRobertHugginsNgo/get-boilerplate#3.0.0 --global
+npm install github:JamesRobertHugginsNgo/get-boilerplate#4.0.0 --global
 ```
 
 Local Installation
 
 ```
-npm install github:JamesRobertHugginsNgo/get-boilerplate#3.0.0 --save-dev --save-exact
+npm install github:JamesRobertHugginsNgo/get-boilerplate#4.0.0 --save-dev --save-exact
 ```
 
 ### Usage
@@ -38,19 +38,19 @@ npx get-boilerplate <url> > <filename>
 [fix-length.js](./src/fix-length.js)
 
 ```
-npx github:JamesRobertHugginsNgo/get-boilerplate#3.0.0 https://github.com/JamesRobertHugginsNgo/get-boilerplate/blob/3.0.0/src/fix-length.js > fix-length.js
+npx github:JamesRobertHugginsNgo/get-boilerplate#4.0.0 https://github.com/JamesRobertHugginsNgo/get-boilerplate/blob/4.0.0/src/fix-length.js > fix-length.js
 ```
 
 [get-argv-flags.js](./src/get-argv-flags.js)
 
 ```
-npx github:JamesRobertHugginsNgo/get-boilerplate#3.0.0 https://github.com/JamesRobertHugginsNgo/get-boilerplate/blob/3.0.0/src/get-argv-flags.js > get-argv-flags.js
+npx github:JamesRobertHugginsNgo/get-boilerplate#4.0.0 https://github.com/JamesRobertHugginsNgo/get-boilerplate/blob/4.0.0/src/get-argv-flags.js > get-argv-flags.js
 ```
 
 [show-usage.js](./src/show-usage.js)
 
 ```
-npx github:JamesRobertHugginsNgo/get-boilerplate#3.0.0 https://github.com/JamesRobertHugginsNgo/get-boilerplate/blob/3.0.0/src/show-usage.js > show-usage.js
+npx github:JamesRobertHugginsNgo/get-boilerplate#4.0.0 https://github.com/JamesRobertHugginsNgo/get-boilerplate/blob/4.0.0/src/show-usage.js > show-usage.js
 ```
 
 ## Samples
