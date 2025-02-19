@@ -10,7 +10,7 @@ A Node CLI tool for downloading boilerplates.
 ## Usage
 
 ```
-npx github:JamesRobertHugginsNgo/get-boilerplate#4.0.0 <url> > <filename>
+npx github:JamesRobertHugginsNgo/get-boilerplate#4.0.0 <url> <filename>
 ```
 
 ## Installation
@@ -30,7 +30,7 @@ npm install github:JamesRobertHugginsNgo/get-boilerplate#4.0.0 --save-dev --save
 ### Usage
 
 ```
-npx get-boilerplate <url> > <filename>
+npx get-boilerplate <url> <filename>
 ```
 
 ## Boilerplates

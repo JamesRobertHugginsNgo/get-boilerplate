@@ -1,5 +1,7 @@
-export default async function getBoilerplate(url) {
-	if (!url) {
+import * as Fs from 'node:fs/promises';
+
+export default async function getBoilerplate(url, file) {
+	if (!url || !file) {
 		throw 'Missing argument(s)';
 	}
 
@@ -36,5 +38,5 @@ export default async function getBoilerplate(url) {
 		}
 	});
 
-	process.stdout.write(text);
+	await Fs.writeFile(file, text, { encoding: 'utf-8' });
 }

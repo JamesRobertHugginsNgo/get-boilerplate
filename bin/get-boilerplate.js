@@ -20,5 +20,5 @@ if (h || help) {
 	process.exit(0);
 }
 
-const [, , url] = process.argv;
-await getBoilerplate(url);
+const [, , url, file] = process.argv;
+await getBoilerplate(url, file);
