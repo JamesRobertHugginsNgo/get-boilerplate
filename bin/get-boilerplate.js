@@ -4,9 +4,7 @@ import getArgVFlags from '../src/get-argv-flags.js';
 import getBoilerplate from '../src/index.js';
 import showUsage from '../src/show-usage.js';
 
-const [, , url] = process.argv;
 const { h, help } = getArgVFlags();
-
 if (h || help) {
 	showUsage(
 		'A Node CLI tool for downloading boilerplates.',
@@ -22,5 +20,5 @@ if (h || help) {
 	process.exit(0);
 }
 
+const [, , url] = process.argv;
 await getBoilerplate(url);
-
